@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  width: fit-content;
+  margin: 15rem auto;
+}
+
+#form {
+  border: 1px solid black;
+  padding: 0 1rem;
+}
+
+td {
+  padding: 0.3rem 0.1rem;
+}
+
+input[type="text"] {
+  height: 1.5rem;
+}
+
+input[type="button"] {
+  width: 3rem;
+  height: 1.5rem;
+}
+
+.warning {
+  text-decoration: underline;
+  color: rgb(238, 74, 74);
+}
+
+.warning:hover {
+  cursor: pointer;
+  color: rgb(79, 79, 238);
+}
+
+#display {
+  font-weight: bolder;
+}
